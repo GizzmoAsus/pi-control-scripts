@@ -21,3 +21,11 @@ This script will trigger a reload of the current Chromium tab
 ### switchtab.sh
 This script will trigger the ctrl+Tab command to switch between 2 
 tabs in Chromium
+
+### openurl.sh
+This script will open the passed in URL in a new tab within the
+browser. If the site requires authentication to view the pages then
+you can choose to enter the username/email and password for it to
+authenticate against. At present, it only supports sites that focus
+the username box when you hit the login screen, better detection for 
+this will come in a future release.
